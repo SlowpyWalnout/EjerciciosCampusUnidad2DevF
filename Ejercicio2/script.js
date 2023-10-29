@@ -13,7 +13,7 @@ function generaNumeros(){
 generaNumeros()
 //Ejercicio 2
 function convertirLista(){
-    let string = prompt('Ingresa los animales que quieras incluir en la lista: ');
+    let string = prompt('Ingresa los elementos que quieras incluir en la lista: ');
     let array = [];
     //para recorrer todo el string
     let wordlength = 0;
