@@ -1,4 +1,3 @@
-
 //Ejercicio 1
 function multiploDeCinco(){
     const numero = parseInt(prompt('ingresa un numero'));
@@ -8,6 +7,7 @@ function multiploDeCinco(){
         }
     }
 };
+multiploDeCinco()
 //Ejercicio 2
 function loteria(){
     const numero1 = parseInt(prompt('Ingresa un numero entre 1 y 50!'));
@@ -21,6 +21,7 @@ function loteria(){
         console.log(i)
     }
 }
+loteria()
 //Ejercicio 3
 function almacenaNumeros(){
     let array = [];
@@ -38,6 +39,7 @@ function almacenaNumeros(){
     }
     console.log('los numeros que ingresaste: ', array)
 }
+almacenaNumeros()
 //Ejercicio 4
 function guardarPalabras(){
     let array = [];
@@ -51,6 +53,7 @@ function guardarPalabras(){
     }
     console.log('esto es lo que ingresaste...', array)
 }
+guardarPalabras()
 //Ejercicio 5
 function diaSemana(){
     while(true){
